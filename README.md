@@ -2,8 +2,10 @@
 <img align="right" src="https://github.com/arrdem/sounds-of-silence/raw/master/etc/sounds-of-silence.jpg"/>
 
 > Hello darkness my old friend
+>
 > I've come to talk with you again
-> Because a vision softly creeping
+>
+> -- Simon & Garfunkel ~ The Sounds of Silence
 
 In keeping with the Unix philosophy, tests (and other programs) should produce
 no output when they execute normally unless they are explicitly asked to.
