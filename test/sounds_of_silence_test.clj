@@ -8,6 +8,6 @@
     (is (= "" (with-out-str (silence (fn [] (println "foo"))))))))
 
 (deftest test-thrown-when-lamenting
-  (testing "Lamentaiton throws on writes."
+  (testing "Lamentation throws on writes."
     (is (thrown? IOException
                  (lamentation (fn [] (println "foo")))))))
