@@ -10,8 +10,9 @@
 
   :plugins [[me.arrdem/lein-git-version "2.0.3"]]
   :git-version {:status-to-version
-                (fn [{:keys [tag version ahead ahead? dirty?]
-                      :or   {tag "0.1.0"}}]
-                  (if (and tag (not ahead?))
+                (fn [{:keys [tag version ahead ahead? dirty?] :as git}]
+                  (if (and tag (not ahead?) (not dirty?))
                     tag
-                    (str tag "-" ahead (when dirty? "-SNAPSHOT"))))})
+                    (str tag
+                         (when ahead? (str "." ahead))
+                         (when dirty? "-SNAPSHOT"))))})
