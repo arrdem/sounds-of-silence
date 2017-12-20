@@ -1,4 +1,4 @@
-(ns sound-of-silence
+(ns sounds-of-silence
   "A clojure.test fixture"
   (:import [me.arrdem.silence NullWriter ErrorWriter]))
 

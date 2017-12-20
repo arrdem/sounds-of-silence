@@ -1,4 +1,4 @@
-(defproject me.arrdem/sound-of-silence "0.1.0-SNAPSHOT"
+(defproject me.arrdem/sounds-of-silence "0.1.0-SNAPSHOT"
   :description "Silence is golden."
   :url "http://github.com/arrdem/sound-of-silence"
   :license {:name "Eclipse Public License"

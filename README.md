@@ -1,8 +1,9 @@
-# The Sound of Silence
+# The Sounds of Silence
+<img align="right" src="https://github.com/arrdem/sounds-of-silence/raw/master/etc/sounds-of-silence.jpg"/>
 
 > Hello darkness my old friend
->
 > I've come to talk with you again
+> Because a vision softly creeping
 
 In keeping with the Unix philosophy, tests (and other programs) should produce
 no output when they execute normally unless they are explicitly asked to.
@@ -15,12 +16,12 @@ by simply providing a bindings to a no-op `Writer` class. `lamentation` makes
 writing to `*out*` and `*err*` fatal, by throwing an `IOException` when either
 output stream is written to. 
 
-## Usage
+## 
 
-```
+```clj
 (ns my.tests
   (:require [clojure.test :refer [use-fixtures is deftest]]
-            [sound-of-silence :refer [lamentation]]))
+            [sounds-of-silence :refer [lamentation]]))
 
 (use-fixtures :each lamentation)
 
