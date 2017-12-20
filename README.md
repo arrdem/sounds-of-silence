@@ -1,5 +1,5 @@
 # The Sounds of Silence
-<img align="right" src="https://github.com/arrdem/sounds-of-silence/raw/master/etc/sounds-of-silence.jpg"/>
+<img align="right" src="https://github.com/arrdem/sounds-of-silence/raw/master/etc/sounds-of-silence.jpg" style="max-width:30%;"/>
 
 > Hello darkness my old friend
 >
