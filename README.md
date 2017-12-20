@@ -1,6 +1,8 @@
 # The Sounds of Silence
 <img align="right" src="https://github.com/arrdem/sounds-of-silence/raw/master/etc/sounds-of-silence.jpg" width=300/>
 
+[![Clojars Project](https://img.shields.io/clojars/v/me.arrdem/sounds-of-silence.svg)](https://clojars.org/me.arrdem/sounds-of-silence)
+
 > Hello darkness my old friend
 >
 > I've come to talk with you again
